@@ -66,4 +66,12 @@
         </plugins>
     </build>
 
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Softink Lab Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/SoftinkLab/huawei-push-java-sdk</url>
+        </repository>
+    </distributionManagement>
+
 </project>
