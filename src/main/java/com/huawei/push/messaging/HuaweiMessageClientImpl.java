@@ -41,7 +41,7 @@ import java.util.Map;
 import java.util.ResourceBundle;
 
 public class HuaweiMessageClientImpl implements HuaweiMessageClient {
-    private static final String PUSH_URL = ResourceBundle.getBundle("url").getString("push_open_url");
+    private static final String PUSH_URL = "https://push-api.cloud.huawei.com";
 
     private final String HcmPushUrl;
     private String hcmTopicUrl;

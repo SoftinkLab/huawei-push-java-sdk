@@ -39,7 +39,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class HuaweiCredential {
     private static final Logger logger = LoggerFactory.getLogger(HuaweiCredential.class);
 
-    private final String PUSH_AT_URL = ResourceBundle.getBundle("url").getString("token_server");
+    private final String PUSH_AT_URL = "https://oauth-login.cloud.huawei.com/oauth2/v3/token";
 
     private String appId;
     private String appSecret;
