@@ -8,7 +8,7 @@ import com.huawei.push.messaging.HuaweiCredential;
 import com.huawei.push.messaging.HuaweiOption;
 
 public class InitAppUtils {
-    private static HuaweiApp initializeApp(String appId, String appSecret) {
+    public static HuaweiApp initializeApp(String appId, String appSecret) {
         HuaweiCredential credential = HuaweiCredential.builder()
                 .setAppId(appId)
                 .setAppSecret(appSecret)
